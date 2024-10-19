@@ -33,58 +33,47 @@
     </style>
   </head>
   <body class="">
-    <div class="flex justify-center z-50 sticky top-0 h-14 bg-red-200 border-2 border-b-red-300">
-      <div
-        class="name md:h-12 md:w-full flex sm:text-xl sm:font-bold sm:h-2 md:text-3xl md:font-extrabold font- text-yellow-700 sm:px-6 py-2 pl-10"
-      >
-        JAS RAM RESTAURENT
+    <nav class="flex flex-col md:flex-row justify-between items-center sticky top-0 bg-red-200 border-b-2 border-red-300 z-50 p-4">
+      <div class="name text-yellow-700 text-2xl md:text-3xl font-extrabold py-2">
+        JAS RAM RESTAURANT
       </div>
-      <div
-        class="flex justify-center sm:space-x-4 sm:text-sm sm:font-semibold md:space-x-12 md:text-xl md:font-extrabold pr-16 py-4"
-      >
-        <a href="#Home" class="cursor-pointer text-yellow-700 hover:text-red-400">Home</a>
-        <a href="#About" class="cursor-pointer text-yellow-700 hover:text-red-400">About</a>
-        <a href="#Menu" class="cursor-pointer text-yellow-700 hover:text-red-400">Menu</a>
-        <a href="#Contact" class="cursor-pointer text-yellow-700 hover:text-red-400">Contact</a
-        >
+      <div class="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-12 text-yellow-700 text-sm md:text-xl font-extrabold pt-2">
+        <a href="#Home" class="hover:text-red-400">Home</a>
+        <a href="#About" class="hover:text-red-400">About</a>
+        <a href="#Menu" class="hover:text-red-400">Menu</a>
+        <a href="#Contact" class="hover:text-red-400">Contact</a>
       </div>
-    </div>
+    </nav>
+    
     <section class="mt-2 bg-red-200">
       <div class="name1 flex justify-center sm:text-3xl sm:font-bold md:text-6xl md:font-extrabold text-yellow-700 pt-4 pb-2">
         Home
       </div>
-      <div id="Home" class="img flex flex-row space-x-4 py-4 px-8 pt-4">
-        <div class="img1 relative ">
-          <img
-            src="https://png.pngtree.com/thumb_back/fh260/background/20220828/pngtree-topview-of-indian-cuisine-dishes-and-food-south-frame-background-photo-image_28143440.jpg"
-            jsaction=""
-            class="sFlh5c FyHeAf iPVvYb"
-            style="max-width: 538px; height: 440px; margin: 0px; width: px"
-            alt="Indian Cuisine Dishes Background Images, HD Pictures and Wallpaper For Free  Download | Pngtree"
-            jsname="kn3ccd"
-            aria-hidden="false"
-          />
-          <p
-            class="md:font-extrabold sm:font-semibold sm:text-2xl md:text-7xl absolute top-0 pt-36 px-24 text-white"
-          >
-            Welcome to
-          </p>
-        </div>
-        <div class="img2 relative">
-          <img
-
-            style="display: block-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;"
-            src="https://res.cloudinary.com/hz3gmuqw6/image/upload/c_fill,q_auto,w_750/f_auto/tk-traditional-indian-foods-to-taste-in-2022-phpEXAXNS"
-            width=""
-            height=""
-          />
-          <p
-            class="md:font-extrabold sm:text-2xl sm:font-semibold md:text-7xl absolute top-0 pt-36 px-24 text-white"
-          >
-             JAS RAM RESTAURENT
-          </p>
-        </div>
-      </div>
+      <div id="Home" class="img flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 py-4 px-8 pt-4">
+        <div id="Home" class="img flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 py-4 px-8 pt-4">
+          <div class="img1 relative w-full h-80 md:w-1/2 md:h-auto">
+            <img
+              src="https://png.pngtree.com/thumb_back/fh260/background/20220828/pngtree-topview-of-indian-cuisine-dishes-and-food-south-frame-background-photo-image_28143440.jpg"
+              alt="Indian Cuisine Dishes Background Images, HD Pictures and Wallpaper For Free Download | Pngtree"
+              class="w-full h-full object-cover"
+            />
+            <p class="md:font-extrabold sm:font-semibold sm:text-2xl md:text-7xl absolute top-1/2 transform -translate-y-1/2 text-white px-4 text-center w-full">
+              Welcome to
+              <span class="block md:hidden">Jas Ram Restaurant
+            </p>
+          </div>
+          <div class="img2 relative hidden md:block w-full h-80 md:w-1/2 md:h-auto">
+            <img
+              src="https://res.cloudinary.com/hz3gmuqw6/image/upload/c_fill,q_auto,w_750/f_auto/tk-traditional-indian-foods-to-taste-in-2022-phpEXAXNS"
+              alt="Traditional Indian Foods"
+              class="w-full h-full object-cover"
+            />
+            <p class="md:font-extrabold sm:text-2xl sm:font-semibold md:text-7xl absolute top-1/2 transform -translate-y-1/2 text-white px-4 text-center w-full">
+              JAS RAM RESTAURANT
+            </p>
+          </div>
+        </div>        
+      </div>      
     </section>
     <!--about section-->
     <section id="About" class="mt-2 h-fit w-full bg-red-200">
@@ -119,130 +108,68 @@
       >
         Menu
       </div>
-      <div class="flex flex-row space-x-2 px-10">
-      <div class="container bg-red-300 mx-36 my-6 h-full w-fit">
-        <h1 class="name flex justify-center text-3xl font-extrabold pt-6 text-yellow-700 font-serif">JAS RAM RESTAURENT</h1>
-        <hr class="line">
-        <h2 class="flex text-2xl justify-center font-bold pt-4">Chinese</h2>
-        <article class="flex flex-row items text-xl font-semibold px-4 space-x-28">
-          <p class="Dishes flex   ">PANEER MOMOS</p>
-          <p class="Price flex items-end relative">RS. 100</p>
-        </article>
-        <article class="flex flex-row items text-xl font-semibold px-4 space-x-32">
-          <p class="Dishes flex  ">CHILLI PANEER</p>
-          <p class="Price flex ">RS. 149</p>
-        </article>
-        <article class="flex flex-row items text-xl font-semibold px-4 space-x-20">
-          <p class="Dishes flex  ">CHILLI MUSHROOM</p>
-          <p class="Price flex ">RS. 149</p>
-        </article>
-        <article class="flex flex-row items text-xl font-semibold px-4 space-x-14">
-          <p class="Dishes flex  ">HONEY CHILLI POTATO</p>
-          <p class="Price flex ">RS. 120</p>
-        </article>
-        <article class="flex flex-row items text-xl font-semibold px-4 space-x-44">
-          <p class="Dishes flex  ">NOODLES</p>
-          <p class="Price flex ">RS. 99.0</p>
-        </article>
-        <article class="flex flex-row items text-xl font-semibold px-4 space-x-32">
-          <p class="Dishes ">CHILLI POTATO</p>
-          <p class="Price ">RS. 99.0</p>
-        </article>
-        <hr class="line my-6">
+      <div class="flex flex-col md:flex-row md:space-x-4 px-4 md:px-10">
+        <div class="container bg-red-300 mx-auto my-6 p-4 flex-grow">
+          <h1 class="text-center text-3xl font-extrabold pt-6 text-yellow-700 font-serif">JAS RAM RESTAURANT</h1>
+          <hr class="my-4">
+          <h2 class="text-center text-2xl font-bold pt-4">Chinese</h2>
+          <div class="text-xl font-semibold px-4 space-y-2">
+            <div class="flex justify-between"><p>PANEER MOMOS</p><p>RS. 100</p></div>
+            <div class="flex justify-between"><p>CHILLI PANEER</p><p>RS. 149</p></div>
+            <div class="flex justify-between"><p>CHILLI MUSHROOM</p><p>RS. 149</p></div>
+            <div class="flex justify-between"><p>HONEY CHILLI POTATO</p><p>RS. 120</p></div>
+            <div class="flex justify-between"><p>NOODLES</p><p>RS. 99.0</p></div>
+            <div class="flex justify-between"><p>CHILLI POTATO</p><p>RS. 99.0</p></div>
+          </div>
+          <hr class="my-6">
+        </div>
+        <div class="container bg-red-300 mx-auto my-6 p-4 flex-grow">
+          <h1 class="text-center text-3xl font-extrabold pt-6 text-yellow-700 font-serif">JAS RAM RESTAURANT</h1>
+          <hr class="my-4">
+          <h2 class="text-center text-2xl font-bold pt-4">Chaap</h2>
+          <div class="text-xl font-semibold px-4 space-y-2">
+            <div class="flex justify-between"><p>MASALA CHAAP</p><p>RS. 169</p></div>
+            <div class="flex justify-between"><p>SOYA CHAAP</p><p>RS. 169</p></div>
+            <div class="flex justify-between"><p>MALAI CHAAP</p><p>RS. 169</p></div>
+            <div class="flex justify-between"><p>STUFFED CHAAP</p><p>RS. 209</p></div>
+            <div class="flex justify-between"><p>ACHARI CHAAP</p><p>RS. 169</p></div>
+            <div class="flex justify-between"><p>PUNJABI CHAAP</p><p>RS. 169</p></div>
+          </div>
+          <hr class="my-6">
+        </div>
       </div>
-      <div class="container bg-red-300 mx-16 my-6 h-fit w-fit">
-        <h1 class="name flex justify-center text-3xl font-extrabold pt-6 text-yellow-700 font-serif">JAS RAM RESTAURENT</h1>
-        <hr class="line">
-        <h2 class="flex text-2xl justify-center font-bold pt-4">Chaap</h2>
-        <article class="flex flex-row items text-xl font-semibold px-4 space-x-28">
-          <p class="Dishes flex   ">MASALA CHAAP</p>
-          <p class="Price flex items-end relative">RS. 169</p>
-        </article>
-        <article class="flex flex-row items text-xl font-semibold px-4 space-x-36">
-          <p class="Dishes flex  ">SOYA CHAAP</p>
-          <p class="Price flex ">RS. 169</p>
-        </article>
-        <article class="flex flex-row items text-xl font-semibold px-4 space-x-32">
-          <p class="Dishes flex  ">MALAI CHAAP</p>
-          <p class="Price flex ">RS. 169</p>
-        </article>
-        <article class="flex flex-row items text-xl font-semibold px-4 space-x-28">
-          <p class="Dishes flex  ">STUFFED CHAAP</p>
-          <p class="Price flex ">RS. 209</p>
-        </article>
-        <article class="flex flex-row items text-xl font-semibold px-4 space-x-32">
-          <p class="Dishes flex  ">ACHARI CHAAP</p>
-          <p class="Price flex ">RS. 169</p>
-        </article>
-        <article class="flex flex-row items text-xl font-semibold px-4 space-x-28">
-          <p class="Dishes ">PUNJABI CHAAP</p>
-          <p class="Price ">RS. 169</p>
-        </article>
-        <hr class="line my-6">
-      </div>
-      </div>
-      <div class="flex flex-row space-x-2 px-10">
-        <div class="container bg-red-300 mx-36 my-6 h-full w-fit">
-          <h1 class="name flex justify-center text-3xl font-extrabold pt-6 text-yellow-700 font-serif">JAS RAM RESTAURENT</h1>
+      
+      <div class="flex flex-col md:flex-row md:space-x-4 px-4 md:px-10">
+        <div class="container bg-red-300 mx-auto md:mx-auto my-6 p-4 flex-grow">
+          <h1 class="name flex justify-center text-3xl font-extrabold pt-6 text-yellow-700 font-serif">JAS RAM RESTAURANT</h1>
           <hr class="line">
-          <h2 class="flex text-2xl justify-center font-bold pt-4">Main Course</h2>
-          <article class="flex flex-row items text-xl font-semibold px-4 space-x-36">
-            <p class="Dishes flex   ">SHAI PANEER</p>
-            <p class="Price flex items-end relative">RS. 219</p>
-          </article>
-          <article class="flex flex-row items text-xl font-semibold px-4 space-x-32">
-            <p class="Dishes flex  ">MATAR PANEER</p>
-            <p class="Price flex ">RS. 219</p>
-          </article>
-          <article class="flex flex-row items text-xl font-semibold px-4 space-x-32">
-            <p class="Dishes flex  ">DAL MAKHANI</p>
-            <p class="Price flex ">RS. 219</p>
-          </article>
-          <article class="flex flex-row items text-xl font-semibold px-4 space-x-28">
-            <p class="Dishes flex  ">KADHAI PANEER</p>
-            <p class="Price flex ">RS. 199</p>
-          </article>
-          <article class="flex flex-row items text-xl font-semibold px-4 space-x-20">
-            <p class="Dishes flex  ">PANEER LABABDAR</p>
-            <p class="Price flex ">RS. 219</p>
-          </article>
-          <article class="flex flex-row items text-xl font-semibold px-4 space-x-28">
-            <p class="Dishes ">PANEER BHURJI</p>
-            <p class="Price ">RS. 219</p>
-          </article>
+          <h2 class="flex justify-center text-2xl font-bold pt-4">Main Course</h2>
+          <div class="text-xl font-semibold px-4 space-y-4">
+            <article class="flex justify-between"><p class="Dishes">SHAI PANEER</p><p class="Price">RS. 219</p></article>
+            <article class="flex justify-between"><p class="Dishes">MATAR PANEER</p><p class="Price">RS. 219</p></article>
+            <article class="flex justify-between"><p class="Dishes">DAL MAKHANI</p><p class="Price">RS. 219</p></article>
+            <article class="flex justify-between"><p class="Dishes">KADHAI PANEER</p><p class="Price">RS. 199</p></article>
+            <article class="flex justify-between"><p class="Dishes">PANEER LABABDAR</p><p class="Price">RS. 219</p></article>
+            <article class="flex justify-between"><p class="Dishes">PANEER BHURJI</p><p class="Price">RS. 219</p></article>
+          </div>
           <hr class="line my-6">
         </div>
-        <div class="container bg-red-300 mx-16 my-6 h-fit w-fit">
-          <h1 class="name flex justify-center text-3xl font-extrabold pt-6 text-yellow-700 font-serif">JAS RAM RESTAURENT</h1>
+        <div class="container bg-red-300 mx-auto md:mx-auto my-6 p-4 flex-grow">
+          <h1 class="name flex justify-center text-3xl font-extrabold pt-6 text-yellow-700 font-serif">JAS RAM RESTAURANT</h1>
           <hr class="line">
-          <h2 class="flex text-2xl justify-center font-bold pt-4">Breads</h2>
-          <article class="flex flex-row items text-xl font-semibold px-4 space-x-32">
-            <p class="Dishes flex   ">TANDOORI ROTI</p>
-            <p class="Price flex items-end relative">RS. 15</p>
-          </article>
-          <article class="flex flex-row items text-xl font-semibold px-4 space-x-56">
-            <p class="Dishes flex  ">NAAN</p>
-            <p class="Price flex ">RS. 25</p>
-          </article>
-          <article class="flex flex-row items text-xl font-semibold px-4 space-x-36">
-            <p class="Dishes flex  ">BUTTER NAAN</p>
-            <p class="Price flex ">RS. 29</p>
-          </article>
-          <article class="flex flex-row items text-xl font-semibold px-4 space-x-24">
-            <p class="Dishes flex  ">CHUR-CHUR NAAN</p>
-            <p class="Price flex ">RS. 59</p>
-          </article>
-          <article class="flex flex-row items text-xl font-semibold px-4 space-x-40">
-            <p class="Dishes flex  ">RUMALI ROTI</p>
-            <p class="Price flex ">RS. 10</p>
-          </article>
-          <article class="flex flex-row items text-xl font-semibold px-4 space-x-44">
-            <p class="Dishes ">TAWA ROTI</p>
-            <p class="Price ">RS. 10</p>
-          </article>
+          <h2 class="flex justify-center text-2xl font-bold pt-4">Breads</h2>
+          <div class="text-xl font-semibold px-4 space-y-4">
+            <article class="flex justify-between"><p class="Dishes">TANDOORI ROTI</p><p class="Price">RS. 15</p></article>
+            <article class="flex justify-between"><p class="Dishes">NAAN</p><p class="Price">RS. 25</p></article>
+            <article class="flex justify-between"><p class="Dishes">BUTTER NAAN</p><p class="Price">RS. 29</p></article>
+            <article class="flex justify-between"><p class="Dishes">CHUR-CHUR NAAN</p><p class="Price">RS. 59</p></article>
+            <article class="flex justify-between"><p class="Dishes">RUMALI ROTI</p><p class="Price">RS. 10</p></article>
+            <article class="flex justify-between"><p class="Dishes">TAWA ROTI</p><p class="Price">RS. 10</p></article>
+          </div>
           <hr class="line my-6">
         </div>
-        </div>  
+      </div>
+      
     </section>
     <!--contact section-->
     <section id="Contact" class="mt-2 h-fit w-full bg-red-200">
