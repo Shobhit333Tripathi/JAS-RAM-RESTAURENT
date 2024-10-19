@@ -635,6 +635,10 @@ video {
   margin-top: 0.5rem;
 }
 
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
 .block {
   display: block;
 }
@@ -931,6 +935,14 @@ video {
     height: 2rem;
   }
 
+  .sm\:h-4 {
+    height: 1rem;
+  }
+
+  .sm\:h-2 {
+    height: 0.5rem;
+  }
+
   .sm\:w-10 {
     width: 2.5rem;
   }
@@ -942,6 +954,14 @@ video {
   .sm\:w-fit {
     width: -moz-fit-content;
     width: fit-content;
+  }
+
+  .sm\:w-6 {
+    width: 1.5rem;
+  }
+
+  .sm\:w-4 {
+    width: 1rem;
   }
 
   .sm\:space-x-10 > :not([hidden]) ~ :not([hidden]) {
